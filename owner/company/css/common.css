@@ -1,0 +1,170 @@
+@charset "utf-8";
+html{
+	font-size: 10px;
+}
+body{
+	font-size: 16px;
+	line-height: 1.75;
+	color: #333;
+	font-family: YakuHanJP_Noto, "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    word-break: break-all;
+}
+@media all and (max-width: 960px){
+    body{
+        font-size: 15px;
+    }
+}
+@media all and (max-width: 767px){
+    body{
+        font-size: 14px;
+    }
+}
+@media all and (max-width: 480px){
+    body{
+        font-size: 13px;
+    }
+}
+main {
+	display: block;
+}
+picture {
+	display: inline-block;
+}
+/*IE11用 display:noneだとjQueryでサイズを取得できない。*/
+@media all and (-ms-high-contrast:none) {
+	*::-ms-backdrop, template {
+		visibility: hidden;
+		width: 0px;
+		height: 0px;
+		overflow: hidden;
+		speak:none;/* 読み上げ無視。効果は不明。*/
+	}
+}
+img,
+svg,
+iframe,
+picture,
+video {
+	vertical-align: top;
+}
+img {
+	max-width: 100%;
+    height: auto;
+}
+/* IE11でのSVGのサイズがおかしくなる問題　　　　　始めの段階でcheakした方が良い
+img[src$=".svg"] {
+    width: 100%;
+    height: auto;
+}
+*/
+a {
+	
+	
+}
+a:hover {
+	text-decoration: none;
+}
+a:active,a:hover {
+    outline: 0;
+}
+a {
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+}
+a:hover {
+	opacity: .7;
+}
+/* タッチデバイスでホーバーを無効。
+ページを戻ってくるとホバーが効いたままになっているのを防ぐ。 */
+@media (hover:none) {
+    a:hover { 
+    	color: inherit;
+    	text-decoration: underline;
+    }
+    
+    a.over:hover {
+		opacity: 1;
+	}
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.inline-block{
+	display: inline-block;
+}
+/* show hide */
+@media screen and (min-width: 768px) {
+	.is-sp {
+		display: none;
+	}
+}
+@media screen and (max-width: 767px){
+	.is-pc {
+		display: none;
+	}
+}
+/* show hide
+スマホ、タブレット、パソコンで切り分ける場合
+pc:パソコン
+tb:タブレット
+sp:スマホ（.is-spと同じ）
+*/
+/* スマホ */
+@media (max-width: 480px) {
+  .only-pc,
+  .only-tb{
+    display: none;
+  }
+}
+/* タブレット */
+@media (min-width: 481px) and (max-width: 960px) { 
+  .only-pc,
+  .only-sp {
+    display: none;
+  }
+}
+/* パソコン */
+@media (min-width: 961px) { 
+  .only-tb,
+  .only-sp{
+    display: none;
+  }
+}
+.pagetop {
+	position: fixed;
+    z-index: 100;
+	right: 0;
+	bottom: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.inner{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.inner_sm{
+    padding: 0 calc(128 / 1220 * 100%);
+}
+@media all and (max-width: 767px){
+    .inner_sm{
+        max-width: 612px;
+        margin: 0 auto;
+        padding: 0 ;
+    }
+}
+.img-round{
+    border-radius: 10px;
+}
+.img-round_right{
+    border-radius: 0 10px 10px 0;
+}
+.img-round_left{
+    border-radius: 10px 0 0 10px;
+}

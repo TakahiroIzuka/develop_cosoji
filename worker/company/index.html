@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="content-type" charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0 ,maximum-scale=1.0, minimum-scale=1.0">
+<title>こそーじ | わたしの10分を1,000円にスキマ時間で、キレイなまちに</title>
+        
+<!-- cssファイルの読み込み -->
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/style_company.css">
+    
+<!-- jQueryライブラリの読み込み(ハンバーガーメニュー) -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+
+<!-- jQueryライブラリの読み込み(ヘッダースクロール時の動き) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div class="wrap">
+    <header class="header">
+        
+        <!---    ヘッダー(PC用)    --->
+        <div class="header-pc-only">
+            <div class="header-logo-area">
+                <img src="img/cosoji-header-logo.png" alt="cosojiロゴ">
+            </div>
+                <ul class="gnav-menu-pc">
+                    <li class="gnav-item-pc">
+                        <a href="../../worker/index.html#feature">特徴</a>
+                    </li>
+                    <li class="gnav-item-pc">
+                        <a href="../../worker/index.html#recommend">こんなひとにおすすめ</a>
+                    </li>
+                    <li class="gnav-item-pc">
+                        <a href="../../worker/index.html#usage">はじめかた</a>
+                    </li>
+                    <li class="gnav-item-pc">
+                        <a href="../../worker/index.html#kinds">導入事例</a>
+                    </li>
+                    <li class="gnav-item-pc register-pc">
+                        <a href="#">近くのお仕事を探す</a>
+                    </li>
+                    <li class="gnav-item-pc login-pc">
+                        <a href="#">ログイン</a>
+                    </li>
+                </ul>
+        </div>
+        
+        <!---    ヘッダー(モバイル用)    --->
+        <div class="header-sp-only">
+            <div class="logo-area">
+                <img src="img/cosoji-header-logo.png" alt="cosojiロゴ">
+            </div>
+    
+            <button class="header-button"><span></span></button>
+                <ul class="header-nav">
+                    <li class="header-nav-item">
+                        <a href="../../worker/index.html#feature">特徴</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="../../worker/index.html#recommend">こんなひとにおすすめ</a></li>
+                    <li class="header-nav-item">
+                        <a href="../../worker/index.html#usage">はじめかた</a>
+                    </li>
+                    <li class="header-nav-item">
+                        <a href="../../worker/index.html#kinds">導入事例</a>
+                    </li>
+                </ul>
+                <div class="register-sp">
+                    <a href="#">お仕事を探す</a>
+                </div>
+                <div class="login-sp">
+                    <a href="#">ログイン</a>
+                </div>
+        </div>
+        
+    </header>
+    <main>
+        
+        <section class="section1">
+            <div id="particles-js"></div>
+            <div class="flex-container sec1">
+                <div class="wrapper-text">
+                    <div class="flex-text-eng">
+                        <p>Creating<br>Value<br>In the local<br>Community</p>
+                    </div>
+                    <div class="flex-text-ja">
+                        <div class="text-big">
+                            <p>テクノロジーによる<br>活気あふれる地域づくり</p>
+                        </div>
+                        <div class="text-small">
+                            <p>テクノロジーをつかって、<br>地域のコミュニティに最大限の価値を創造し、<br>地域の人と人を結び、笑顔にします。<br>わたしたちは地域課題をテクノロジーを有効活用し、<br>解決するテックカンパニーです。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section2">
+            <div class="back-ground2"></div>
+            <div class="flex-container sec2">
+                <div class="flex-title-info">
+                    <h3 class="char-small">Information</h3>
+                    <h3 class="char-big">会社概要</h3>
+                </div>
+                <div class="flex-profile">
+                    <ul>
+				        <li class="prof-name wide-name">社名</li>
+                        <li class="prof-content wide-content">Rsmile株式会社<br>英語表記 Rsmile inc.</li>
+                    </ul>
+                    <ul>
+                        <li class="prof-name">設立</li>
+                        <li class="prof-content">2020年5月</li>
+                    </ul>
+                    <ul>
+                        <li class="prof-name wide-name">本社<br class="br-prof-name">所在地</li>
+                        <li class="prof-content wide-content">〒103-0008<br>東京都中央区日本橋中洲6-10</li>
+                    </ul>
+                    <ul>
+                        <li class="prof-name">代表<br class="br-prof-name">取締役</li>
+                        <li class="prof-content">富治林 希宇</li>
+                    </ul>
+                    <ul>
+                        <li class="prof-name">資本金</li>
+                        <li class="prof-content">6,800,000円 <br class="br-sp">(2020年5月現在)</li>
+                    </ul>
+                    <ul>
+                        <li class="prof-name">業務内容</li>
+                        <li class="prof-content">不動産特化型<br id="kaigyo">スキルシェアサイト運営<br>
+                            <a href="../../owner/">オーナーサイト</a>
+                            <a href="../">ワーカーサイト</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="prof-name">受賞歴</li>
+                        <li class="prof-content block-content">
+                            <p>Global Greek <br class="br-sp">Academy 優勝</p>
+                            <p>FLAP 採択</p>
+                        </li>
+				    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div>
+            <a href="#wrapper" class="pagetop" id="pagetop"></a>
+        </div>
+        <div class="footer-container">
+                <ul id="second-block">
+                    <ul>
+                        <li><div class="icon"></div><a href="../">トップ</a></li>
+                        <li><div class="icon"></div><a href="../company/">運営会社</a></li>
+                    </ul>
+                    <ul>
+                        <li id="inq"><div class="icon"></div><a href="../inquiry/index.html">お問合わせ</a></li>
+                        <li id="faq"><div class="icon"></div><a href="#">FAQヘルプセンター</a></li>
+                    </ul>
+                </ul>
+                <ul>
+                    <li id="rule"><div class="icon"></div><a href="../terms/">利用規約</a></li>
+                    <li id="policy"><div class="icon"></div><a href="../privacy/">プライバシーポリシー</a></li>
+                </ul>
+                <ul>
+                    <li id="request"><div class="icon"></div><a href="../../owner/">仕事を依頼したい方は<span>こちら</span></a></li>
+                </ul>
+         </div>
+         <div class="footer-bottom">
+                <small>&copy; 2020 Rmail Inc</small>
+         </div>
+     
+    
+    </footer>
+    </div>
+    <script src="js/script-humb.js" defer></script>
+    <script src="js/script-head.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/set.js"></script>
+</body>
+</html>
