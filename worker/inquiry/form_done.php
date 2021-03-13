@@ -191,10 +191,10 @@
                         <a href="../../worker/index.html#kinds">導入事例</a>
                     </li>
                     <li class="gnav-item-pc register-pc">
-                        <a href="#">近くのお仕事を探す</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScMHZJF53a5cgw-POCBxCsKXDYpsymMqHT2S4IqDmMnfVRZzw/viewform">近くのお仕事を探す</a>
                     </li>
                     <li class="gnav-item-pc login-pc">
-                        <a href="#">ログイン</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScMHZJF53a5cgw-POCBxCsKXDYpsymMqHT2S4IqDmMnfVRZzw/viewform">ログイン</a>
                     </li>
                 </ul>
         </div>
@@ -220,10 +220,10 @@
                     </li>
                 </ul>
                 <div class="register-sp">
-                    <a href="#">お仕事を探す</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScMHZJF53a5cgw-POCBxCsKXDYpsymMqHT2S4IqDmMnfVRZzw/viewform">お仕事を探す</a>
                 </div>
                 <div class="login-sp">
-                    <a href="#">ログイン</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScMHZJF53a5cgw-POCBxCsKXDYpsymMqHT2S4IqDmMnfVRZzw/viewform">ログイン</a>
                 </div>
         </div>
         
