@@ -32,6 +32,7 @@ select {
 }
 /*  ヘッダー PC用　*/
 
+
 .header-pc-only {
     width: 100%;
     display: flex;
@@ -91,37 +92,39 @@ select {
     padding: 11px 8px 10px 25px ;
 }
 .register-pc {
-    width: 200px;
+    width: 134px;
     height: 35px;
-    background-color: #67D7D7;
+    background-color: #f3c31d;
     border-radius: 50px;
     margin-right: 24px;
+
 }
 .register-pc a {
     position: relative;
     padding-right: 0;
     color: white !important;
-    font-size: 14px;
-    padding: 6px 2px 14px 30px;
+    font-size: 1.4rem;
+    padding: 6px 2px 14px 20px;
 }
 .register-pc a::after {
 	content: '';
 	display: inline-block;
 	width: 16px;
-	height: 19px;
+    height: 19px;
 	background-image: url("../img/register.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	vertical-align: middle;
 	position: absolute;
 	top: 50%;
-	left: 20px;
+	left: 17px;
     transform: translate(0,-50%);
 }
 .login-pc {
     width: 134px;
     height: 35px;
-    border: 1px solid black;
+    background-color: #5CD4D4;
+
     border-radius: 50px;
 }
 .login-pc a {
@@ -129,6 +132,7 @@ select {
     vertical-align: middle;
     width: 100%;
     height: 35px;
+    color: white !important;
     padding: 6px 0 14px 32px;
     font-size: 14px;
 }
@@ -137,7 +141,7 @@ select {
 	display: inline-block;
 	width: 17px;
 	height: 17px;
-	background-image: url("../img/login.png");
+	background-image: url("../img/login_owner.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	vertical-align: middle;
@@ -272,11 +276,12 @@ body.open .header-nav {
     height: 66px;
     margin: 0;
     text-align: center;  
+    background-color: #5CD4D4;
 }
 .login-sp a {
     width: 100%;
     height: 100%;
-    color: #333;
+    color: white;
     font-size: 10px;
     display: inline-block;
     padding-top: 45px;
@@ -288,7 +293,7 @@ body.open .header-nav {
 	display: inline-block;
 	width: 25px;
 	height: 25px;
-	background-image: url("../img/login.png");
+	background-image: url("../img/login_owner.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	vertical-align: middle;
@@ -306,8 +311,7 @@ body.open .header-nav {
     height:66px;
     margin: 0;
     text-align: center;
-    background-color: #67D7D7;
-   
+    background-color:#f3c31d;
 }
 .register-sp a {
     height: 100%;

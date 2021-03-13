@@ -113,63 +113,65 @@
     
     ?>
     
-    <header class="header">
-        
-        <!---    ヘッダー(PC用)    --->
-        <div class="header-pc-only">
-            <div class="header-logo-area">
-                <img src="img/cosoji-header-logo.png" alt="cosojiロゴ">
-            </div>
-                <ul class="gnav-menu-pc">
-                    <li class="gnav-item-pc">
-                        <a href="../../worker/index.html#feature">特徴</a>
-                    </li>
-                    <li class="gnav-item-pc">
-                        <a href="../../worker/index.html#recommend">こんなひとにおすすめ</a>
-                    </li>
-                    <li class="gnav-item-pc">
-                        <a href="../../worker/index.html#usage">はじめかた</a>
-                    </li>
-                    <li class="gnav-item-pc">
-                        <a href="../../worker/index.html#kinds">導入事例</a>
-                    </li>
-                    <li class="gnav-item-pc register-pc">
-                        <a href="#">近くのお仕事を探す</a>
-                    </li>
-                    <li class="gnav-item-pc login-pc">
-                        <a href="#">ログイン</a>
-                    </li>
-                </ul>
-        </div>
-        
-        <!---    ヘッダー(モバイル用)    --->
-        <div class="header-sp-only">
-            <div class="logo-area">
-                <img src="img/cosoji-header-logo.png" alt="cosojiロゴ">
-            </div>
-    
-            <button class="header-button"><span></span></button>
-                <ul class="header-nav">
-                    <li class="header-nav-item">
-                        <a href="../../worker/index.html#feature">特徴</a>
-                    </li>
-                    <li class="header-nav-item">
-                        <a href="../../worker/index.html#recommend">こんなひとにおすすめ</a></li>
-                    <li class="header-nav-item">
-                        <a href="../../worker/index.html#usage">はじめかた</a>
-                    </li>
-                    <li class="header-nav-item">
-                        <a href="../../worker/index.html#kinds">導入事例</a>
-                    </li>
-                </ul>
-                <div class="register-sp">
-                    <a href="#">お仕事を探す</a>
+    <div class="wrap">
+        <header class="header">
+            
+            <!---    ヘッダー(PC用)    --->
+            <div class="header-pc-only">
+                <div class="header-logo-area">
+                    <img src="img/cosoji-header-logo.png" alt="cosojiロゴ">
                 </div>
-                <div class="login-sp">
-                    <a href="#">ログイン</a>
+                    <ul class="gnav-menu-pc">
+                        <li class="gnav-item-pc">
+                            <a href="../../owner/index.html#feature">特徴</a>
+                        </li>
+                        <li class="gnav-item-pc">
+                            <a href="../../owner/index.html#merit">導入メリット</a>
+                        </li>
+                        <li class="gnav-item-pc">
+                            <a href="../../owner/index.html#kinds">導入事例</a>
+                        </li>
+                        <li class="gnav-item-pc">
+                            <a href="../../owner/index.html#usage">はじめかた</a>
+                        </li>
+                        <li class="gnav-item-pc register-pc">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfLGzZ577EiGAqMTBdjgMzjqGE8vrzrXlRtWRGecBiQi7AZgQ/viewform">使ってみる</a>
+                        </li>
+                        <li class="gnav-item-pc login-pc">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfLGzZ577EiGAqMTBdjgMzjqGE8vrzrXlRtWRGecBiQi7AZgQ/viewform">ログイン</a>
+                        </li>
+                    </ul>
+            </div>
+            
+            <!---    ヘッダー(モバイル用)    --->
+            <div class="header-sp-only">
+                <div class="logo-area">
+                    <img src="img/cosoji-header-logo.png" alt="cosojiロゴ">
                 </div>
-        </div>
         
+                <button class="header-button"><span></span></button>
+                    <ul class="header-nav">
+                        <li class="header-nav-item">
+                            <a href="../../owner/index.html#feature">特徴</a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a href="../../owner/index.html#merit">導入メリット</a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a href="../../owner/index.html#kinds">導入事例</a>
+                        </li>
+                        <li class="header-nav-item">
+                            <a href="../../owner/index.html#usage">はじめかた</a>
+                        </li>
+                    </ul>
+                    <div class="register-sp">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfLGzZ577EiGAqMTBdjgMzjqGE8vrzrXlRtWRGecBiQi7AZgQ/viewform">使ってみる</a>
+                    </div>
+                    <div class="login-sp">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfLGzZ577EiGAqMTBdjgMzjqGE8vrzrXlRtWRGecBiQi7AZgQ/viewform">ログイン</a>
+                    </div>
+            </div>
+            
         </header>
         <section>
             <div class="breadcrumb">
